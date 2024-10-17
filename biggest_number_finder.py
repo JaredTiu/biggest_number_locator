@@ -1,6 +1,11 @@
 def highest_number (number_1, number_2, number_3, number_4, number_5):
 # compare the 5 inputs given by the user 
-    #compare number 1 to number 2, 3, 4 and 5 
+    #compare number 1 to number 2, 3, 4 and 5
+    if number_1 > number_2: 
+        if number_1 > number_3: 
+            if number_1 > number_4: 
+                if number_1 > number_5: 
+                    print(f"The highest number is:", number_1) 
 #if it is not the highest then move on to number 2 
     #compare number 2 to number 3, 4, and 5 
 #if it is still not the highest move on to number 3
