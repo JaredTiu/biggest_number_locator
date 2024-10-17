@@ -23,7 +23,7 @@ def highest_number (number_1, number_2, number_3, number_4, number_5):
             print(f"The highest number is:", number_4)
 #if it still not the highest then number 5 is the highest.
     else:
-        print ("The highest number is:", number_5)
+        print (f"The highest number is:", number_5)
 #asking for user inputs
 number_1 = float(input("input first number: "))
 number_2 = float(input("input second number: "))
